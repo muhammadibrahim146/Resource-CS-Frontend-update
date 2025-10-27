@@ -1,7 +1,7 @@
 // LoginSignup.jsx
 import React, { useState } from "react";
 import axios from "axios";
-import { useAuth } from "./AppContext";
+import { useAuth } from "./Appcontext";
 import { useNavigate } from "react-router-dom";
 
 const LoginSignup = () => {
